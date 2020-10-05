@@ -10,10 +10,6 @@ public class GuessingGame {
         Player p2 = new Player();
         Player p3 = new Player();
 
-        boolean p1IsRight = false;
-        boolean p2IsRight = false;
-        boolean p3IsRight = false;
-
         // Random number needed to win game
         int targetNumber = (int) (Math.random() * 10);
         System.out.println("I'm thinking of a number between 0 and 9...");
@@ -26,28 +22,23 @@ public class GuessingGame {
             p2.guess();
             p3.guess();
 
-            // Assigning the players' guesses
-            int guessP1 = p1.number;
-            int guessP2 = p2.number;
-            int guessP3 = p3.number;
-
             // Checking win condition for each player
-            if (guessP1 == targetNumber) {
-                p1IsRight = true;
+            if (p1.number == targetNumber) {
+                p1.isRight = true;
             }
-            if (guessP2 == targetNumber) {
-                p2IsRight = true;
+            if (p2.number == targetNumber) {
+                p2.isRight = true;
             }
-            if (guessP3 == targetNumber) {
-                p3IsRight = true;
+            if (p3.number == targetNumber) {
+                p3.isRight = true;
             }
 
             // Announcing the winner(s) and ending the game
-            if (p1IsRight || p2IsRight || p3IsRight) {
+            if (p1.isRight || p2.isRight || p3.isRight) {
                 System.out.println("We have a winner!");
-                System.out.println("Is Player1 right? " + p1IsRight);
-                System.out.println("Is Player2 right? " + p2IsRight);
-                System.out.println("Is Player3 right? " + p3IsRight);
+                System.out.println("Is Player1 right? " + p1.isRight);
+                System.out.println("Is Player2 right? " + p2.isRight);
+                System.out.println("Is Player3 right? " + p3.isRight);
                 System.out.println("Game over...");
                 break;
                 // If no winner, repeat until a player wins
