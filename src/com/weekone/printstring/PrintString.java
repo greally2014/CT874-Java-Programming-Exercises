@@ -6,7 +6,7 @@ public class PrintString {
 
     public static void main(String[] args) {
 
-        // Declare variables
+        // Declare variable
         String name;
 
         // Declare, create and assign Scanner object
