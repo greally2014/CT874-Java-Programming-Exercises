@@ -4,6 +4,7 @@ public class Player {
 
     // Instance variable
     int number;
+    boolean isRight = false;
 
     // Instance method
     public void guess() {
