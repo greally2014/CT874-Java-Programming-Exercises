@@ -1,6 +1,7 @@
 package com.weektwo.dog;
 
 public class DogTest {
+
     // main method
     public static void main(String[] args) {
 

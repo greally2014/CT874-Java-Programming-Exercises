@@ -1,6 +1,5 @@
 package com.weektwo.dog;
 
-
 public class Dog {
 
     // Instance variables
