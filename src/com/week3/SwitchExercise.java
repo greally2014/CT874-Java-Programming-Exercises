@@ -1,7 +1,8 @@
-package com.weekthree;
+package com.week3;
 import java.util.Scanner;
 
-public class switchExercise {
+public class SwitchExercise {
+
     public static void main(String[] args) {
         int gradeLevel;
         Scanner scanner = new Scanner(System.in);

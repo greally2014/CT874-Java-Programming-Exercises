@@ -1,4 +1,4 @@
-package com.weektwo.bicycle;
+package com.week2.bicycle;
 
 public class Bicycle {
 

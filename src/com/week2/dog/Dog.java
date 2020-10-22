@@ -1,4 +1,4 @@
-package com.weektwo.dog;
+package com.week2.dog;
 
 public class Dog {
 
@@ -8,7 +8,7 @@ public class Dog {
     String name;
 
     // Instance method
-    public void bark() {
+    void bark() {
         System.out.println("Ruff! Ruff!");
     }
 }

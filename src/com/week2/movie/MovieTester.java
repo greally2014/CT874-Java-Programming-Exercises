@@ -1,9 +1,8 @@
-package com.weektwo.movie;
+package com.week2.movie;
 
 public class MovieTester {
 
     public static void main(String[] args) {
-
         Movie one = new Movie();
         one.title = "Gone with the Wind";
         one.genre = "Romance";

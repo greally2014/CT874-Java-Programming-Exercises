@@ -1,8 +1,8 @@
-package com.weekthree;
+package com.week3;
 
-public class doWhile {
+public class DoWhile {
+
     public static void main(String[] args) {
-
         int sum = 0, number = 1;
 
         do {

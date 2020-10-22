@@ -1,4 +1,4 @@
-package com.weektwo.guessinggame;
+package com.week2.guessinggame;
 
 public class GuessingGame {
 

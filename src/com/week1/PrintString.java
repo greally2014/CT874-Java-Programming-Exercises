@@ -1,11 +1,10 @@
-package com.weekone;
+package com.week1;
 
 import java.util.Scanner;
 
 public class PrintString {
 
     public static void main(String[] args) {
-
         // Declare variable
         String name;
 

@@ -1,10 +1,9 @@
-package com.weektwo.dog;
+package com.week2.dog;
 
 public class DogTest {
 
     // main method
     public static void main(String[] args) {
-
         // Declaration & creation of LectureDog object
         Dog spot = new Dog();
 

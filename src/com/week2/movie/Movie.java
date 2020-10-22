@@ -1,4 +1,4 @@
-package com.weektwo.movie;
+package com.week2.movie;
 
 public class Movie {
 
