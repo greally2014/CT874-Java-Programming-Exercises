@@ -1,4 +1,4 @@
-package com.weekone.printstring;
+package com.weekone;
 
 import java.util.Scanner;
 
